@@ -1,64 +1,32 @@
 # Marketing Campaign Analysis
 
+
 # Overview
-The objective is to analyze the customer’s demographic information, purchasing patterns, and interactions with marketing campaigns to identify key insights to better:
+The objective was to analyze the customers’ demographic information, purchasing patterns, and interactions with marketing campaigns to identify key insights to better:
 
 1. Understand customers' behaviors and preferences
-2. Predict customers' responses to future marketing campaigns and promotions
+   
+2. Predict customers' responses to future marketing campaigns and promotion
+   
 3. Improve the overall effectiveness of future marketing campaigns and promotions to maximize profits and return on investment
 
- # Data & Methodology
-The customer data is from a two-year period, beginning in 2012 and ending in 2014. The raw dataset included one large CSV file with 30 Columns and 2,241 rows (including titles). 
+# Data & Methodology
+The customer data covers a two-year period, from 2012 to 2014. The raw dataset included one large CSV file with 30 columns and 2,241 rows (including titles). The data was first cleaned to fix the date format and spelling errors. No duplicates were found, but there were missing values. The income column had 24 missing entries. After cleaning the data in Excel, the dataset was categorized into three main areas: customer demographics, customer purchase history, and marketing campaign interactions. This allowed for the creation of three separate tables in SQLite, which were used to analyze the data. Python and Tableau were then employed to gain further insights and visualize the data through charts and graphs.
 
-The data was first cleaned to fix the date format and spelling errors. No duplicates were found, but there were missing values. The income column had 24 missing values. 
-
-After cleaning the data, the dataset was then broken down into three main categories: customer demographics, customer purchase history, and market campaign interactions. This allowed for the creation of three separate tables in SQLite, which was used to analyzing data. Python and Tableau were then used to gain further insight, as well as visualize data using charts and graphs. 
-
- # Key Insights
+# Key Insights
 Customer Demographics:
-
-The majority of customers are between the ages of 40 and 70, peaking around 50. The average age of customers is 55. 
-
-97.5% of customers were highly educated. 50.3% of customers were college graduates and another 47.3% had postgraduate degrees. 
-
-Nearly 65% of customers had a partner, of which 38.6% were married.
-
-Income distribution is slightly skewed because we have a couple high-income outliers pulling the data to the right.  Average income is $52,247 with a max income of $666,666 and a minimum income of $1,730. 
+The majority of customers were between the ages of 40 and 70, with a peak around 50. The average age of customers was 55. Of these, 97.5% were highly educated: 50.3% were college graduates, and another 47.3% had postgraduate degrees. Nearly 65% of customers had a partner, 38.6% of whom were married. The income distribution was slightly skewed due to a few high-income outliers, resulting in an average income of $52,247, with a maximum income of $666,666 and a minimum of $1,730.
 
 Customer Purchase Patterns:
+Six product categories were tracked over the two years: wine, meat, gold, fish, sweets, and fruits. Customers spent the most on wine, followed by meat, with a sharp decline in spending across the other categories. Customers spent a total of $1,356,988 and made 33,291 purchases. On average, 49 days passed since a customer’s last purchase.
 
-There was a total of six product categories tracked during the two years: wine, meat, gold, fish, sweets, and fruits.
+Wine purchases were predominantly made by customers with an annual salary between $55,000 and $72,000. Most purchases were made in-store, followed by online. Spending peaked in the 4th quarter and during holidays, while the 2nd quarter saw the least spending. Purchases made with discounts were highest in the 1st quarter.
 
-Customers spent a total of $1,356,988 and made a total of 33,291 purchases. The average number of days since a customers last purchase was 49 days. Customers spent the most on wine products, followed by meat products. There was a noticeable drop in spending across the bottom four categories. 
-
-The majority of wine purchases where made by customers with an annual salary between $55,000 and $72,000 a year, which the majority of purchases were made in store, followed by website purchases.
-
-Overall, spending was the highest in the 4th quarter, followed by the 1st quarter. Quarter 2 had the least spending. 
-
-Purchase made with a discount were the highest in the 1st quarter, followed by the 4th quarter. And again, the 2nd Quarter has the least.
-
-
-Market Campaign Interactions:
-
-There were a total of six campaigns. 334 customers accepted the offer in the last
-campaign, meaning nearly 55% of customers waited until the last campaign to respond or take advantage of the offer. The second most responded to campaign was the 4th campaign, with 167 customers accepting the offer during that campaign.
-
-72.81% (1,631) did NOT respond to any of the campaigns. Only 609 (27.19%) of the 2,240 customers chose to respond to any of the campaigns. When looking at income, customers that made between $70,000 and $90,000 a year responded MOST to the six campaigns.
-
-There was also a positive correlation between spending and time of year. The data shows that customers spent the most during the holidays and the first three months of the year.
-
-# Recommendations:
- 
-Create more urgency in marketing campaigns in an effort to engage more customers and get them to respond to a campaign. 
-
-Create marketing campaigns, promotions, events (like wine tastings), and giveaways that drive customers to the store since the majority of all purchases were made in-store. The increase foot traffic will lead to more spending and increase revenue.
-
-Double down on wine products. It was by far the most popular of the six categories. Increase marketing spending in this category to target customers who make wine purchases. Specifically, among customers that make between $55,000 and $72,000 a year.
+Marketing Campaign Interactions:
+There were six campaigns in total. In the last campaign, 334 customers accepted the offer, representing nearly 55% of those who responded. The second most successful campaign was the 4th, with 167 responses. Overall, 72.81% (1,631 customers) did not respond to any campaign, while 27.19% (609 customers) responded. Customers earning between $70,000 and $90,000 were the most responsive to the campaigns.
 
 # Summary
-
-The analysis reveals that the majority of customers are aged 40-70, with an average income of $52,247 and a high level of education. Wine was the most purchased product, particularly by customers earning $55,000 to $72,000, and most purchases were made in-store. Customer spending peaked in the 4th quarter and during holidays, with discounts driving purchases in the 1st quarter. Despite six marketing campaigns, only 27.19% of customers responded, with most engaging in the final campaign. Recommendations include creating more urgency in campaigns, promoting in-store events, and focusing marketing efforts on wine products to boost engagement and revenue.
-
+The analysis reveals that most customers were aged 40-70, married or with a partner, with an average income of $52,247 and a high level of education. Wine was the most purchased product, especially among customers earning $55,000 to $72,000, with most purchases made in-store. Customer spending peaked in the 4th quarter and during holidays, with discounts driving purchases in the 1st quarter. Despite six campaigns, only 27.19% of customers responded, with the majority engaging in the final campaign. Recommendations include creating more urgency in campaigns, promoting in-store events, and focusing marketing efforts on wine products to increase engagement and revenue.
 
 
 
