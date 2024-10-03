@@ -11,7 +11,7 @@ The objective was to analyze the customers’ demographic information, purchasin
 3. Improve the overall effectiveness of future marketing campaigns and promotions to maximize profits and return on investment
 
 # Data & Methodology
-The customer data covers a two-year period, from 2012 to 2014. The raw dataset included one large CSV file with 30 columns and 2,241 rows (including titles). The data was first cleaned to fix the date format and spelling errors. No duplicates were found, but there were missing values. The income column had 24 missing entries. After cleaning the data in Excel, the dataset was categorized into three main areas: customer demographics, customer purchase history, and marketing campaign interactions. This allowed for the creation of three separate tables in SQLite, which were used to analyze the data. Python and Tableau were then employed to gain further insights and visualize the data through charts and graphs.
+The customer data covers a two-year period, from 2012 to 2014. The raw dataset included one large CSV file with 30 columns and 2,241 rows (including titles). The data was first cleaned to fix the date format and spelling errors. No duplicates were found, but there were missing values. The income column had 24 missing entries. After cleaning the data in Excel, the dataset was categorized into three main groups: customer demographics, customer purchase history, and marketing campaign interactions. This allowed for the creation of three separate tables in SQLite, which were used to analyze the data. Python and Tableau were then employed to gain further insights and visualize the data through charts and graphs.
 
 # Key Insights
 Customer Demographics:
