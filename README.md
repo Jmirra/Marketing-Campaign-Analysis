@@ -2,7 +2,7 @@
 
 
 # Overview
-The objective was to analyze the customers’ demographic information, purchasing patterns, and interactions with marketing campaigns to identify key insights to better:
+The objective was to analyze customers’ demographic information, purchasing patterns, and interactions with marketing campaigns to identify key insights to better:
 
 1. Understand customers' behaviors and preferences
    
